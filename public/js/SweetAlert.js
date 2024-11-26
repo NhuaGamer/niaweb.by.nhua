@@ -47,7 +47,7 @@ window.onload = function() {
   if (urlParams.get('errorEmailExists') === 'true') {
     Swal.fire({
       icon: 'error',
-      title: 'Emakl exists',
+      title: 'Email exists',
       text: 'Check your email',
       confirmButtonText: 'OK'
     }).then((result) => {
